@@ -5,7 +5,7 @@ const NavItem = ({ children, to }) => {
       to={to}
       className={({ isActive }) =>
         isActive
-          ? "text-warning font-medium"
+          ? "text-danger font-medium"
           : "hover:text-gray-500 text-gray-700 dark:text-slate-100"
       }
     >

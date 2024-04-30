@@ -3,9 +3,10 @@ import ErrorPage from "../ErrorPage";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Mameno from "../pages/Mameno";
-import Control from "../pages/Control";
 import Admin from "../pages/Admin";
 import Thanks from "../pages/Thanks";
+import Services from "../pages/Services";
+import Projet from "../pages/Projet";
 
 const path = [
   {
@@ -26,8 +27,12 @@ const path = [
         element: <Mameno />,
       },
       {
-        path: "controle",
-        element: <Control />,
+        path: "services",
+        element: <Services />,
+      },
+      {
+        path: "project",
+        element: <Projet />,
       },
       {
         path: "admin",
