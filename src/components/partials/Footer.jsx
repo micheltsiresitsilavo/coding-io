@@ -11,7 +11,7 @@ const Footer = () => {
           className="text-gray-700 underline transition hover:text-gray-700/75"
         >
           {" "}
-          love by Michel Tsilavo
+          love by Woz Tsimba
         </a>
         .
       </p>

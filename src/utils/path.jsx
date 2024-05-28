@@ -7,6 +7,8 @@ import Admin from "../pages/Admin";
 import Thanks from "../pages/Thanks";
 import Services from "../pages/Services";
 import Projet from "../pages/Projet";
+import Monarch from "../pages/Monarch";
+import BuyPage from "../pages/BuyPage";
 
 const path = [
   {
@@ -41,6 +43,14 @@ const path = [
       {
         path: "thanks",
         element: <Thanks />,
+      },
+      {
+        path: "monarch",
+        element: <Monarch />,
+      },
+      {
+        path: "monarch/micheltsilavo",
+        element: <BuyPage />,
       },
     ],
   },

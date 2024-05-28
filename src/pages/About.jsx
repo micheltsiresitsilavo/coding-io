@@ -74,14 +74,14 @@ const About = () => {
             <div className="p-6">
               <img
                 className="object-cover object-center w-full mb-8 lg:h-56 md:h-36 rounded-xl"
-                src="https://ucarecdn.com/f7434ae8-03a0-4e62-8d2a-d2a6f02740f3/micheltsilavo2.jpg"
+                src="https://coding-io.netlify.app/assets/images/team/team-1.jpg"
                 alt="blog"
               />
               <h2 className="mb-8 text-xs font-semibold tracking-widest text-danger uppercase">
-                Michel Tsiresitsilavo RAKOTOARIVONY
+                Lamina Dalhia
               </h2>
               <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">
-                UI/UX Designer et Développeur Front-end
+                Chargé de prospection et commerciales - Web
               </h1>
             </div>
             <div className="p-6">
